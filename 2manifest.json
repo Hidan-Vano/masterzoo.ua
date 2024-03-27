@@ -1,10 +1,24 @@
 {
-  "name": "Hello Extensions",
-  "description": "Base Level Extension",
+  "name": "Тема браузера MasterZoo.ua",
+  "description": "Тема интернет магазина - MasterZoo.ua",
   "version": "1.0",
   "manifest_version": 3,
-  "action": {
-    "default_popup": "hello.html",
-    "default_icon": "hello_extensions.png"
+"theme": {
+    "colors": {
+      "frame": [118, 60, 188],          // Цвет рамки вкладок
+      "toolbar": [118, 60, 188],        // Цвет панели инструментов
+      "tab_text": [255, 255, 255],      // Цвет текста вкладок, белый для контраста
+      "ntp_background": [118, 60, 188], // Фоновый цвет новой вкладки
+      "ntp_text": [255, 255, 255],      // Цвет текста на новой вкладке, белый для контраста
+      "bookmark_text": [255, 255, 255]  // Цвет текста закладок, белый для контраста
+    },
+    "images": {
+      "theme_frame": "images/theme_frame-Masterzoo-1920-1080.jpg",
+      "theme_toolbar": "images/theme_toolbar-Masterzoo-1920-200.jpg",
+      "theme_ntp_background": "images/theme_ntp_background-Masterzoo-1920-1080.jpg"
+    },
+    "properties": {
+      "ntp_background_alignment": "bottom"
+    }
   }
 }
